@@ -1,0 +1,35 @@
+环境诊断报告.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ML artifacts
+datasets/
+models/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.png
+*.jpg
+*.jpeg
+
+# Logs / outputs
+*.log
+runs/
+outputs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
