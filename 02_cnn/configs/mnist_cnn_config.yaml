@@ -1,0 +1,53 @@
+# MNIST CNN 训练配置文件
+# 格式: YAML 便于后期扩展到自动化配置管理
+
+experiment_name: "MNIST_CNN_2026-03-06"
+description: "LeNet-5 style CNN for MNIST digit recognition"
+
+# 超参数
+hyperparameters:
+  batch_size: 64
+  test_batch_size: 1000
+  epochs: 10
+  learning_rate: 0.001
+  optimizer: "Adam"
+  
+# 数据集配置
+dataset:
+  name: "MNIST"
+  train_size: 60000
+  test_size: 10000
+  input_shape: [1, 28, 28]
+  num_classes: 10
+  
+# 模型配置
+model:
+  architecture: "SimpleCNN"
+  conv1_out_channels: 32
+  conv1_kernel_size: 5
+  conv2_out_channels: 64
+  conv2_kernel_size: 5
+  fc1_hidden: 128
+  dropout_rate: 0.25
+  total_params: 184586
+  
+# 硬件配置
+hardware:
+  device: "cuda"
+  gpu_name: "NVIDIA GeForce RTX 4080"
+  vram_gb: 15.7
+  
+# 训练结果
+results:
+  best_epoch: 10
+  best_accuracy: 99.44
+  final_train_accuracy: 98.75
+  final_test_accuracy: 99.44
+  training_time_seconds: 34.4
+  
+# 输出路径
+paths:
+  model_save: "../models/mnist_cnn_best.pth"
+  predictions_image: "../models/mnist_predictions.png"
+  training_history_image: "../models/training_history.png"
+  log_file: "./logs/mnist_cnn_2026-03-06.log"
