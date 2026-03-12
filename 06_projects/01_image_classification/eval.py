@@ -7,8 +7,8 @@ import torch
 import torch.nn as nn
 
 from config import Config
-from dataset import build_dataloaders
-from model import SimpleCNN
+from dataset import build_dataloaders, get_label_names
+from model import build_model
 
 
 def evaluate_with_confusion(model, loader, device, num_classes):
@@ -45,17 +45,17 @@ def parse_args():
 
 def main():
     args = parse_args()
-    config = Config()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    ckpt_path = config.best_ckpt_path if args.checkpoint == "best" else config.last_ckpt_path
+    base_config = Config()
+    ckpt_path = base_config.best_ckpt_path if args.checkpoint == "best" else base_config.last_ckpt_path
     if not ckpt_path.exists():
         raise FileNotFoundError(f"checkpoint not found: {ckpt_path}")
 
-    _, _, test_loader = build_dataloaders(config)
-    model = SimpleCNN(num_classes=config.num_classes).to(device)
-
     checkpoint = torch.load(ckpt_path, map_location=device)
+    config = Config.from_dict(checkpoint.get("config", {}))
+    _, _, test_loader = build_dataloaders(config)
+    model = build_model(config).to(device)
     model.load_state_dict(checkpoint["model_state_dict"])
 
     test_loss, test_acc, confusion = evaluate_with_confusion(
@@ -79,9 +79,12 @@ def main():
     print("01_image_classification/eval.py")
     print("=" * 70)
     print(f"checkpoint={ckpt_path}")
+    print(f"model={config.model_name}, use_real_data={config.use_real_data}")
     print(f"test_loss={test_loss:.4f}, test_acc={test_acc:.2%}")
     print(f"metrics saved to {metrics_path}")
     print("confusion matrix:")
+    label_names = get_label_names(config)
+    print("labels:", label_names)
     for row in confusion.tolist():
         print(row)
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import torch.nn as nn
+from torchvision import models
 
 
 class SimpleCNN(nn.Module):
@@ -21,3 +22,17 @@ class SimpleCNN(nn.Module):
 
     def forward(self, x):
         return self.net(x)
+
+
+def build_model(config):
+    model_name = config.model_name.lower()
+    if model_name in {"simplecnn", "simple_cnn"}:
+        return SimpleCNN(num_classes=config.num_classes)
+
+    if model_name == "resnet18":
+        weights = models.ResNet18_Weights.DEFAULT if config.pretrained else None
+        model = models.resnet18(weights=weights)
+        model.fc = nn.Linear(model.fc.in_features, config.num_classes)
+        return model
+
+    raise ValueError(f"Unsupported model_name: {config.model_name}")

@@ -6,8 +6,8 @@ import json
 import torch
 
 from config import Config
-from dataset import build_dataloaders
-from model import SimpleCNN
+from dataset import build_dataloaders, get_label_names
+from model import build_model
 
 
 def parse_args():
@@ -19,16 +19,17 @@ def parse_args():
 
 def main():
     args = parse_args()
-    config = Config()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    ckpt_path = config.best_ckpt_path if args.checkpoint == "best" else config.last_ckpt_path
+    base_config = Config()
+    ckpt_path = base_config.best_ckpt_path if args.checkpoint == "best" else base_config.last_ckpt_path
     if not ckpt_path.exists():
         raise FileNotFoundError(f"checkpoint not found: {ckpt_path}")
 
-    _, _, test_loader = build_dataloaders(config)
-    model = SimpleCNN(num_classes=config.num_classes).to(device)
     checkpoint = torch.load(ckpt_path, map_location=device)
+    config = Config.from_dict(checkpoint.get("config", {}))
+    _, _, test_loader = build_dataloaders(config)
+    model = build_model(config).to(device)
     model.load_state_dict(checkpoint["model_state_dict"])
     model.eval()
 
@@ -58,6 +59,8 @@ def main():
 
     infer_result = {
         "checkpoint": str(ckpt_path),
+        "model_name": config.model_name,
+        "use_real_data": config.use_real_data,
         "sample_index": sample_index,
         "true_label": true_label,
         "pred_label": pred_label,
@@ -72,11 +75,13 @@ def main():
     print("01_image_classification/infer.py")
     print("=" * 70)
     print(f"checkpoint={ckpt_path}")
+    print(f"model={config.model_name}, use_real_data={config.use_real_data}")
     print(f"sample_index={sample_index}, true_label={true_label}")
-    print(f"pred_label={pred_label}, confidence={pred_conf:.2%}")
+    label_names = get_label_names(config)
+    print(f"pred_label={pred_label} ({label_names[pred_label]}), confidence={pred_conf:.2%}")
     print("top-3 predictions:")
     for item in top_predictions:
-        print(f"  class={item['class']} prob={item['prob']:.2%}")
+        print(f"  class={item['class']} ({label_names[item['class']]}) prob={item['prob']:.2%}")
     print(f"result saved to {result_path}")
 
 
