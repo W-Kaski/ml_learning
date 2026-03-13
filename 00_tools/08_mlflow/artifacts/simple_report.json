@@ -1,0 +1,6 @@
+{
+  "summary": "artifact logging demo",
+  "metric": {
+    "auc": 0.9812
+  }
+}

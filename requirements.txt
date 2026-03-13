@@ -1,0 +1,19 @@
+# 机器学习环境依赖（GPU版本）
+# 硬件：NVIDIA GeForce RTX 4080 + CUDA 12.2/12.8
+# Python版本：3.10.12
+# 最后更新：2026-03-06
+
+# PyTorch 核心（系统级安装，无需再装）
+# torch==2.8.0+cu128  (已安装在 /usr/local/lib/python3.10/dist-packages)
+# 用户级安装
+torchvision==0.23.0+cu128  # 用户目录，与系统torch版本匹配
+
+# 系统级可用（无需安装）
+matplotlib>=3.10.5
+numpy>=2.2.6
+
+# 注意事项：
+# 1. PyTorch 2.8.0+cu128 已在系统全局安装，支持GPU
+# 2. torchvision 安装在用户目录 (~/.local/lib/python3.10/site-packages)
+# 3. 若要隔离环境，建议联系管理员申请更大磁盘配额后使用 venv/conda
+# 4. 当前配置足以运行 MNIST/CIFAR 等标准深度学习任务

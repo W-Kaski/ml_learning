@@ -72,6 +72,7 @@ for step in range(1, 4):
 print("说明：默认梯度会累积，不会自动清零。")
 
 # 手动清零（训练中常见）
+# optimizer.zero_grad()
 w.grad.zero_()
 print(f"清零后，w.grad = {w.grad.item():.1f}")
 

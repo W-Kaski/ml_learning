@@ -1,0 +1,501 @@
+customer_id,name,email,country,segment,join_date
+1,Customer_1,c1@mail.com,UK,Consumer,2021-06-17
+2,Customer_2,c2@mail.com,DE,Consumer,2021-07-03
+3,Customer_3,c3@mail.com,US,Corporate,2020-07-01
+4,Customer_4,c4@mail.com,US,Consumer,2021-03-07
+5,Customer_5,c5@mail.com,US,Home Office,2022-10-22
+6,Customer_6,c6@mail.com,US,Corporate,2022-07-05
+7,Customer_7,c7@mail.com,DE,Corporate,2022-08-26
+8,Customer_8,c8@mail.com,DE,Corporate,2020-09-27
+9,Customer_9,c9@mail.com,UK,Home Office,2022-03-13
+10,Customer_10,c10@mail.com,UK,Corporate,2022-08-29
+11,Customer_11,c11@mail.com,US,Consumer,2022-05-19
+12,Customer_12,c12@mail.com,FR,Corporate,2022-09-23
+13,Customer_13,c13@mail.com,DE,Consumer,2022-12-28
+14,Customer_14,c14@mail.com,CA,Consumer,2021-11-12
+15,Customer_15,c15@mail.com,DE,Consumer,2021-03-10
+16,Customer_16,c16@mail.com,DE,Corporate,2022-11-10
+17,Customer_17,c17@mail.com,,Consumer,2021-01-04
+18,Customer_18,c18@mail.com,US,Consumer,2021-02-02
+19,Customer_19,c19@mail.com,DE,Consumer,2020-01-31
+20,Customer_20,c20@mail.com,DE,Consumer,2020-02-01
+21,Customer_21,c21@mail.com,US,Consumer,2020-12-18
+22,Customer_22,c22@mail.com,US,Consumer,2020-08-16
+23,Customer_23,c23@mail.com,CA,Corporate,2022-03-28
+24,Customer_24,c24@mail.com,US,Corporate,2021-10-22
+25,Customer_25,c25@mail.com,US,Consumer,2021-02-16
+26,Customer_26,c26@mail.com,FR,Corporate,2021-11-10
+27,Customer_27,c27@mail.com,FR,Consumer,2021-12-30
+28,Customer_28,c28@mail.com,UK,Consumer,2022-09-18
+29,Customer_29,c29@mail.com,US,Consumer,2021-08-15
+30,Customer_30,c30@mail.com,US,Home Office,2021-11-27
+31,Customer_31,c31@mail.com,US,Consumer,2021-12-02
+32,Customer_32,c32@mail.com,DE,Corporate,2020-03-22
+33,Customer_33,c33@mail.com,US,Home Office,2021-05-19
+34,Customer_34,c34@mail.com,UK,Home Office,2020-01-19
+35,Customer_35,c35@mail.com,FR,Corporate,2020-01-28
+36,Customer_36,c36@mail.com,US,Consumer,2020-09-24
+37,Customer_37,c37@mail.com,FR,Home Office,2021-02-18
+38,Customer_38,c38@mail.com,FR,Corporate,2021-09-26
+39,Customer_39,c39@mail.com,UK,Consumer,2020-01-12
+40,Customer_40,c40@mail.com,US,Home Office,2022-06-27
+41,Customer_41,c41@mail.com,UK,Home Office,2020-06-07
+42,Customer_42,c42@mail.com,US,Consumer,2020-06-29
+43,Customer_43,c43@mail.com,UK,Consumer,2020-11-11
+44,Customer_44,c44@mail.com,FR,Consumer,2020-10-21
+45,Customer_45,c45@mail.com,FR,Corporate,2020-11-28
+46,Customer_46,c46@mail.com,US,Consumer,2021-02-22
+47,Customer_47,c47@mail.com,UK,Home Office,2022-10-11
+48,Customer_48,c48@mail.com,FR,Corporate,2022-06-27
+49,Customer_49,c49@mail.com,US,Consumer,2021-06-17
+50,Customer_50,c50@mail.com,FR,Home Office,2020-12-16
+51,Customer_51,c51@mail.com,US,Consumer,2022-03-23
+52,Customer_52,c52@mail.com,UK,Corporate,2020-02-24
+53,Customer_53,c53@mail.com,UK,Consumer,2020-09-15
+54,Customer_54,c54@mail.com,CA,Consumer,2022-05-26
+55,Customer_55,c55@mail.com,US,Corporate,2021-09-02
+56,Customer_56,c56@mail.com,US,Consumer,2022-01-09
+57,Customer_57,c57@mail.com,CA,Corporate,2022-09-24
+58,Customer_58,c58@mail.com,FR,Corporate,2021-01-04
+59,Customer_59,c59@mail.com,US,Consumer,2020-11-04
+60,Customer_60,c60@mail.com,CA,Consumer,2022-01-19
+61,Customer_61,c61@mail.com,US,Corporate,2022-07-15
+62,Customer_62,c62@mail.com,US,Consumer,2021-05-03
+63,Customer_63,c63@mail.com,FR,Consumer,2022-01-30
+64,Customer_64,c64@mail.com,FR,Consumer,2022-12-10
+65,Customer_65,c65@mail.com,DE,Consumer,2022-04-28
+66,Customer_66,c66@mail.com,US,Home Office,2022-07-01
+67,Customer_67,c67@mail.com,UK,Corporate,2021-08-11
+68,Customer_68,c68@mail.com,DE,Consumer,2022-05-21
+69,Customer_69,c69@mail.com,FR,Consumer,2020-10-25
+70,Customer_70,c70@mail.com,US,Home Office,2021-12-16
+71,Customer_71,c71@mail.com,UK,Home Office,2022-03-13
+72,Customer_72,c72@mail.com,FR,Corporate,2021-09-17
+73,Customer_73,c73@mail.com,US,Consumer,2020-11-20
+74,Customer_74,c74@mail.com,DE,Corporate,2020-08-31
+75,Customer_75,c75@mail.com,UK,Consumer,2022-07-05
+76,Customer_76,c76@mail.com,DE,Consumer,2022-01-02
+77,Customer_77,c77@mail.com,US,Corporate,2021-10-13
+78,Customer_78,c78@mail.com,UK,Corporate,2022-06-13
+79,Customer_79,c79@mail.com,FR,Consumer,2020-12-19
+80,Customer_80,c80@mail.com,DE,Consumer,2021-07-20
+81,Customer_81,c81@mail.com,UK,Corporate,2021-01-04
+82,Customer_82,c82@mail.com,US,Corporate,2021-09-07
+83,Customer_83,c83@mail.com,FR,Consumer,2020-09-19
+84,Customer_84,c84@mail.com,US,Consumer,2021-04-23
+85,Customer_85,c85@mail.com,UK,Consumer,2021-11-28
+86,Customer_86,c86@mail.com,UK,Consumer,2022-10-12
+87,Customer_87,c87@mail.com,US,Home Office,2021-02-06
+88,Customer_88,c88@mail.com,US,Consumer,2022-10-07
+89,Customer_89,c89@mail.com,DE,Corporate,2020-12-30
+90,Customer_90,c90@mail.com,US,Corporate,2020-04-03
+91,Customer_91,c91@mail.com,US,Consumer,2022-09-27
+92,Customer_92,c92@mail.com,DE,Consumer,2021-05-29
+93,Customer_93,c93@mail.com,FR,Corporate,2021-03-16
+94,Customer_94,c94@mail.com,US,Consumer,2021-08-17
+95,Customer_95,c95@mail.com,US,Home Office,2022-01-22
+96,Customer_96,c96@mail.com,DE,Consumer,2021-06-14
+97,Customer_97,c97@mail.com,FR,Consumer,2022-03-04
+98,Customer_98,c98@mail.com,UK,Consumer,2022-01-22
+99,Customer_99,c99@mail.com,DE,Corporate,2021-05-13
+100,Customer_100,c100@mail.com,US,Corporate,2021-06-14
+101,Customer_101,c101@mail.com,UK,Corporate,2022-07-07
+102,Customer_102,c102@mail.com,FR,Consumer,2020-02-15
+103,Customer_103,c103@mail.com,FR,Consumer,2022-12-09
+104,Customer_104,c104@mail.com,CA,Consumer,2022-11-08
+105,Customer_105,c105@mail.com,FR,Consumer,2022-04-18
+106,Customer_106,c106@mail.com,US,Consumer,2021-12-22
+107,Customer_107,c107@mail.com,DE,Consumer,2022-07-01
+108,Customer_108,c108@mail.com,,Consumer,2021-02-11
+109,Customer_109,c109@mail.com,DE,Consumer,2021-04-15
+110,Customer_110,c110@mail.com,US,Consumer,2020-06-07
+111,Customer_111,c111@mail.com,UK,Consumer,2021-09-09
+112,Customer_112,c112@mail.com,FR,Corporate,2020-12-31
+113,Customer_113,c113@mail.com,CA,Consumer,2020-02-14
+114,Customer_114,c114@mail.com,US,Corporate,2021-04-02
+115,Customer_115,c115@mail.com,CA,Home Office,2022-10-19
+116,Customer_116,c116@mail.com,FR,Corporate,2022-08-11
+117,Customer_117,c117@mail.com,US,Corporate,2022-09-06
+118,Customer_118,c118@mail.com,US,Home Office,2022-11-05
+119,Customer_119,c119@mail.com,US,Corporate,2022-10-17
+120,Customer_120,c120@mail.com,US,Consumer,2022-06-03
+121,Customer_121,c121@mail.com,FR,Corporate,2020-12-29
+122,Customer_122,c122@mail.com,FR,Consumer,2022-07-08
+123,Customer_123,c123@mail.com,DE,Consumer,2022-03-19
+124,Customer_124,c124@mail.com,FR,Consumer,2021-05-08
+125,Customer_125,c125@mail.com,DE,Corporate,2021-02-07
+126,Customer_126,c126@mail.com,US,Corporate,2021-09-25
+127,Customer_127,c127@mail.com,US,Consumer,2021-12-24
+128,Customer_128,c128@mail.com,CA,Corporate,2020-11-20
+129,Customer_129,c129@mail.com,US,Corporate,2021-06-24
+130,Customer_130,c130@mail.com,UK,Consumer,2020-07-07
+131,Customer_131,c131@mail.com,US,Corporate,2021-04-14
+132,Customer_132,c132@mail.com,CA,Corporate,2022-11-16
+133,Customer_133,c133@mail.com,US,Consumer,2021-04-26
+134,Customer_134,c134@mail.com,US,Consumer,2021-05-28
+135,Customer_135,c135@mail.com,UK,Consumer,2022-07-03
+136,Customer_136,c136@mail.com,CA,Consumer,2022-05-11
+137,Customer_137,c137@mail.com,FR,Home Office,2020-05-10
+138,Customer_138,c138@mail.com,US,Corporate,2021-07-09
+139,Customer_139,c139@mail.com,UK,Consumer,2021-06-15
+140,Customer_140,c140@mail.com,US,Corporate,2022-02-18
+141,Customer_141,c141@mail.com,FR,Consumer,2021-07-22
+142,Customer_142,c142@mail.com,US,Consumer,2022-12-29
+143,Customer_143,c143@mail.com,DE,Consumer,2021-11-01
+144,Customer_144,c144@mail.com,,Consumer,2020-09-10
+145,Customer_145,c145@mail.com,DE,Corporate,2022-08-19
+146,Customer_146,c146@mail.com,CA,Consumer,2020-02-19
+147,Customer_147,c147@mail.com,US,Corporate,2021-09-01
+148,Customer_148,c148@mail.com,US,Corporate,2020-01-25
+149,Customer_149,c149@mail.com,DE,Consumer,2020-01-30
+150,Customer_150,c150@mail.com,UK,Consumer,2020-01-26
+151,Customer_151,c151@mail.com,US,Consumer,2020-12-18
+152,Customer_152,c152@mail.com,FR,Consumer,2020-02-22
+153,Customer_153,c153@mail.com,UK,Home Office,2022-10-31
+154,Customer_154,c154@mail.com,UK,Home Office,2021-07-27
+155,Customer_155,c155@mail.com,US,Consumer,2021-02-11
+156,Customer_156,c156@mail.com,US,Consumer,2021-01-02
+157,Customer_157,c157@mail.com,UK,Corporate,2021-04-30
+158,Customer_158,c158@mail.com,US,Consumer,2020-06-02
+159,Customer_159,c159@mail.com,UK,Consumer,2020-03-14
+160,Customer_160,c160@mail.com,UK,Corporate,2021-04-23
+161,Customer_161,c161@mail.com,UK,Corporate,2022-03-27
+162,Customer_162,c162@mail.com,FR,Corporate,2022-12-25
+163,Customer_163,c163@mail.com,US,Corporate,2020-04-06
+164,Customer_164,c164@mail.com,DE,Corporate,2022-07-20
+165,Customer_165,c165@mail.com,DE,Corporate,2020-12-05
+166,Customer_166,c166@mail.com,DE,Consumer,2022-05-02
+167,Customer_167,c167@mail.com,UK,Consumer,2020-10-08
+168,Customer_168,c168@mail.com,CA,Consumer,2020-04-08
+169,Customer_169,c169@mail.com,DE,Consumer,2020-04-10
+170,Customer_170,c170@mail.com,UK,Home Office,2022-09-15
+171,Customer_171,c171@mail.com,US,Corporate,2022-04-17
+172,Customer_172,c172@mail.com,US,Corporate,2022-11-20
+173,Customer_173,c173@mail.com,FR,Consumer,2021-07-19
+174,Customer_174,c174@mail.com,FR,Corporate,2021-12-28
+175,Customer_175,c175@mail.com,UK,Corporate,2020-05-21
+176,Customer_176,c176@mail.com,,Corporate,2020-02-03
+177,Customer_177,c177@mail.com,DE,Consumer,2021-05-27
+178,Customer_178,c178@mail.com,DE,Home Office,2020-02-13
+179,Customer_179,c179@mail.com,DE,Corporate,2021-08-29
+180,Customer_180,c180@mail.com,FR,Corporate,2020-06-29
+181,Customer_181,c181@mail.com,FR,Corporate,2022-10-19
+182,Customer_182,c182@mail.com,CA,Consumer,2022-09-22
+183,Customer_183,c183@mail.com,US,Consumer,2022-12-11
+184,Customer_184,c184@mail.com,FR,Consumer,2020-07-26
+185,Customer_185,c185@mail.com,CA,Consumer,2020-08-26
+186,Customer_186,c186@mail.com,US,Corporate,2021-09-16
+187,Customer_187,c187@mail.com,US,Corporate,2022-11-23
+188,Customer_188,c188@mail.com,,Consumer,2020-05-26
+189,Customer_189,c189@mail.com,US,Corporate,2020-03-20
+190,Customer_190,c190@mail.com,FR,Consumer,2021-10-16
+191,Customer_191,c191@mail.com,UK,Home Office,2020-02-20
+192,Customer_192,c192@mail.com,DE,Consumer,2021-12-08
+193,Customer_193,c193@mail.com,,Consumer,2022-11-08
+194,Customer_194,c194@mail.com,DE,Consumer,2021-09-11
+195,Customer_195,c195@mail.com,CA,Consumer,2020-06-16
+196,Customer_196,c196@mail.com,DE,Corporate,2021-07-15
+197,Customer_197,c197@mail.com,US,Consumer,2021-04-22
+198,Customer_198,c198@mail.com,,Corporate,2020-02-03
+199,Customer_199,c199@mail.com,US,Consumer,2020-10-26
+200,Customer_200,c200@mail.com,FR,Consumer,2020-04-17
+201,Customer_201,c201@mail.com,UK,Consumer,2020-08-16
+202,Customer_202,c202@mail.com,FR,Corporate,2021-10-23
+203,Customer_203,c203@mail.com,US,Corporate,2020-03-21
+204,Customer_204,c204@mail.com,US,Consumer,2020-08-25
+205,Customer_205,c205@mail.com,FR,Corporate,2021-12-09
+206,Customer_206,c206@mail.com,FR,Home Office,2022-08-31
+207,Customer_207,c207@mail.com,UK,Consumer,2020-10-09
+208,Customer_208,c208@mail.com,US,Home Office,2020-09-08
+209,Customer_209,c209@mail.com,UK,Consumer,2021-04-28
+210,Customer_210,c210@mail.com,UK,Home Office,2020-12-24
+211,Customer_211,c211@mail.com,UK,Corporate,2021-09-27
+212,Customer_212,c212@mail.com,FR,Home Office,2020-10-13
+213,Customer_213,c213@mail.com,CA,Corporate,2022-03-08
+214,Customer_214,c214@mail.com,US,Consumer,2020-07-10
+215,Customer_215,c215@mail.com,DE,Consumer,2022-05-25
+216,Customer_216,c216@mail.com,CA,Consumer,2020-03-02
+217,Customer_217,c217@mail.com,FR,Consumer,2021-01-07
+218,Customer_218,c218@mail.com,FR,Corporate,2020-02-05
+219,Customer_219,c219@mail.com,CA,Corporate,2021-09-26
+220,Customer_220,c220@mail.com,UK,Corporate,2022-10-02
+221,Customer_221,c221@mail.com,,Home Office,2022-12-25
+222,Customer_222,c222@mail.com,FR,Home Office,2021-04-18
+223,Customer_223,c223@mail.com,FR,Consumer,2021-10-10
+224,Customer_224,c224@mail.com,US,Consumer,2020-03-19
+225,Customer_225,c225@mail.com,US,Corporate,2020-01-05
+226,Customer_226,c226@mail.com,FR,Home Office,2020-06-03
+227,Customer_227,c227@mail.com,US,Home Office,2021-09-01
+228,Customer_228,c228@mail.com,US,Consumer,2021-06-20
+229,Customer_229,c229@mail.com,US,Consumer,2022-11-18
+230,Customer_230,c230@mail.com,US,Consumer,2021-06-08
+231,Customer_231,c231@mail.com,DE,Corporate,2020-04-09
+232,Customer_232,c232@mail.com,CA,Corporate,2021-03-20
+233,Customer_233,c233@mail.com,US,Home Office,2022-04-07
+234,Customer_234,c234@mail.com,US,Corporate,2021-06-04
+235,Customer_235,c235@mail.com,FR,Consumer,2022-04-27
+236,Customer_236,c236@mail.com,UK,Corporate,2022-03-18
+237,Customer_237,c237@mail.com,DE,Corporate,2022-01-01
+238,Customer_238,c238@mail.com,UK,Corporate,2022-09-16
+239,Customer_239,c239@mail.com,US,Home Office,2021-03-14
+240,Customer_240,c240@mail.com,DE,Consumer,2020-01-16
+241,Customer_241,c241@mail.com,DE,Home Office,2022-10-12
+242,Customer_242,c242@mail.com,UK,Corporate,2021-03-26
+243,Customer_243,c243@mail.com,UK,Consumer,2021-08-14
+244,Customer_244,c244@mail.com,UK,Corporate,2021-05-27
+245,Customer_245,c245@mail.com,DE,Home Office,2021-05-24
+246,Customer_246,c246@mail.com,UK,Home Office,2021-09-02
+247,Customer_247,c247@mail.com,CA,Consumer,2021-07-07
+248,Customer_248,c248@mail.com,DE,Consumer,2020-08-08
+249,Customer_249,c249@mail.com,FR,Consumer,2022-01-03
+250,Customer_250,c250@mail.com,US,Corporate,2021-08-19
+251,Customer_251,c251@mail.com,US,Consumer,2022-08-10
+252,Customer_252,c252@mail.com,US,Consumer,2020-06-07
+253,Customer_253,c253@mail.com,FR,Consumer,2020-11-23
+254,Customer_254,c254@mail.com,US,Consumer,2021-01-10
+255,Customer_255,c255@mail.com,UK,Consumer,2022-01-13
+256,Customer_256,c256@mail.com,UK,Corporate,2021-03-20
+257,Customer_257,c257@mail.com,US,Consumer,2022-02-23
+258,Customer_258,c258@mail.com,DE,Corporate,2022-11-17
+259,Customer_259,c259@mail.com,US,Consumer,2021-01-14
+260,Customer_260,c260@mail.com,DE,Home Office,2021-08-01
+261,Customer_261,c261@mail.com,US,Corporate,2020-01-16
+262,Customer_262,c262@mail.com,CA,Corporate,2021-05-06
+263,Customer_263,c263@mail.com,US,Consumer,2020-07-17
+264,Customer_264,c264@mail.com,US,Corporate,2022-10-02
+265,Customer_265,c265@mail.com,UK,Consumer,2022-07-25
+266,Customer_266,c266@mail.com,,Consumer,2021-09-14
+267,Customer_267,c267@mail.com,,Corporate,2021-06-11
+268,Customer_268,c268@mail.com,UK,Consumer,2020-06-28
+269,Customer_269,c269@mail.com,CA,Home Office,2020-04-19
+270,Customer_270,c270@mail.com,US,Corporate,2021-05-23
+271,Customer_271,c271@mail.com,US,Consumer,2021-03-30
+272,Customer_272,c272@mail.com,US,Corporate,2020-10-19
+273,Customer_273,c273@mail.com,DE,Consumer,2020-02-17
+274,Customer_274,c274@mail.com,US,Consumer,2022-07-08
+275,Customer_275,c275@mail.com,US,Consumer,2020-07-08
+276,Customer_276,c276@mail.com,US,Consumer,2020-04-18
+277,Customer_277,c277@mail.com,US,Corporate,2021-07-31
+278,Customer_278,c278@mail.com,US,Consumer,2022-01-25
+279,Customer_279,c279@mail.com,US,Consumer,2021-08-27
+280,Customer_280,c280@mail.com,DE,Corporate,2022-09-23
+281,Customer_281,c281@mail.com,US,Corporate,2021-10-26
+282,Customer_282,c282@mail.com,US,Corporate,2020-03-10
+283,Customer_283,c283@mail.com,US,Consumer,2022-03-22
+284,Customer_284,c284@mail.com,US,Consumer,2020-11-08
+285,Customer_285,c285@mail.com,DE,Consumer,2022-11-11
+286,Customer_286,c286@mail.com,US,Consumer,2020-03-05
+287,Customer_287,c287@mail.com,FR,Consumer,2021-01-28
+288,Customer_288,c288@mail.com,US,Home Office,2021-01-16
+289,Customer_289,c289@mail.com,DE,Consumer,2021-07-09
+290,Customer_290,c290@mail.com,DE,Corporate,2022-02-04
+291,Customer_291,c291@mail.com,UK,Home Office,2021-01-23
+292,Customer_292,c292@mail.com,US,Corporate,2021-08-30
+293,Customer_293,c293@mail.com,UK,Consumer,2022-11-12
+294,Customer_294,c294@mail.com,US,Corporate,2022-03-23
+295,Customer_295,c295@mail.com,DE,Corporate,2021-11-18
+296,Customer_296,c296@mail.com,FR,Home Office,2021-06-15
+297,Customer_297,c297@mail.com,US,Home Office,2020-05-12
+298,Customer_298,c298@mail.com,FR,Consumer,2020-02-26
+299,Customer_299,c299@mail.com,CA,Consumer,2022-10-09
+300,Customer_300,c300@mail.com,FR,Corporate,2021-03-07
+301,Customer_301,c301@mail.com,US,Consumer,2022-08-04
+302,Customer_302,c302@mail.com,US,Consumer,2021-01-03
+303,Customer_303,c303@mail.com,US,Consumer,2021-03-20
+304,Customer_304,c304@mail.com,UK,Consumer,2022-08-05
+305,Customer_305,c305@mail.com,FR,Consumer,2021-10-09
+306,Customer_306,c306@mail.com,UK,Consumer,2021-10-24
+307,Customer_307,c307@mail.com,US,Consumer,2020-03-06
+308,Customer_308,c308@mail.com,FR,Consumer,2021-05-18
+309,Customer_309,c309@mail.com,UK,Corporate,2020-06-16
+310,Customer_310,c310@mail.com,US,Consumer,2020-10-14
+311,Customer_311,c311@mail.com,DE,Corporate,2022-12-16
+312,Customer_312,c312@mail.com,UK,Consumer,2020-08-08
+313,Customer_313,c313@mail.com,UK,Corporate,2020-11-07
+314,Customer_314,c314@mail.com,US,Consumer,2020-07-08
+315,Customer_315,c315@mail.com,US,Consumer,2021-02-12
+316,Customer_316,c316@mail.com,US,Home Office,2022-05-14
+317,Customer_317,c317@mail.com,UK,Consumer,2020-11-22
+318,Customer_318,c318@mail.com,FR,Corporate,2020-03-03
+319,Customer_319,c319@mail.com,US,Consumer,2021-07-20
+320,Customer_320,c320@mail.com,FR,Consumer,2020-03-25
+321,Customer_321,c321@mail.com,US,Consumer,2022-07-12
+322,Customer_322,c322@mail.com,UK,Consumer,2021-06-07
+323,Customer_323,c323@mail.com,US,Consumer,2020-06-22
+324,Customer_324,c324@mail.com,FR,Home Office,2020-08-07
+325,Customer_325,c325@mail.com,FR,Home Office,2020-01-15
+326,Customer_326,c326@mail.com,FR,Corporate,2021-07-18
+327,Customer_327,c327@mail.com,US,Home Office,2020-01-15
+328,Customer_328,c328@mail.com,US,Corporate,2021-09-11
+329,Customer_329,c329@mail.com,US,Consumer,2020-12-03
+330,Customer_330,c330@mail.com,FR,Corporate,2022-04-06
+331,Customer_331,c331@mail.com,FR,Corporate,2020-02-03
+332,Customer_332,c332@mail.com,US,Corporate,2021-04-04
+333,Customer_333,c333@mail.com,DE,Consumer,2022-09-20
+334,Customer_334,c334@mail.com,US,Corporate,2021-08-28
+335,Customer_335,c335@mail.com,US,Corporate,2021-02-02
+336,Customer_336,c336@mail.com,US,Home Office,2020-01-20
+337,Customer_337,c337@mail.com,UK,Home Office,2022-12-11
+338,Customer_338,c338@mail.com,US,Home Office,2020-04-07
+339,Customer_339,c339@mail.com,UK,Consumer,2022-01-25
+340,Customer_340,c340@mail.com,DE,Consumer,2021-09-09
+341,Customer_341,c341@mail.com,,Consumer,2020-01-22
+342,Customer_342,c342@mail.com,US,Home Office,2022-09-20
+343,Customer_343,c343@mail.com,DE,Consumer,2022-07-26
+344,Customer_344,c344@mail.com,US,Home Office,2020-08-08
+345,Customer_345,c345@mail.com,US,Consumer,2020-07-15
+346,Customer_346,c346@mail.com,UK,Home Office,2021-04-08
+347,Customer_347,c347@mail.com,US,Consumer,2021-04-11
+348,Customer_348,c348@mail.com,US,Consumer,2021-10-07
+349,Customer_349,c349@mail.com,US,Consumer,2021-03-14
+350,Customer_350,c350@mail.com,UK,Corporate,2020-11-04
+351,Customer_351,c351@mail.com,US,Consumer,2022-04-07
+352,Customer_352,c352@mail.com,FR,Consumer,2021-08-15
+353,Customer_353,c353@mail.com,US,Home Office,2021-02-22
+354,Customer_354,c354@mail.com,DE,Consumer,2020-08-21
+355,Customer_355,c355@mail.com,US,Consumer,2020-05-03
+356,Customer_356,c356@mail.com,UK,Corporate,2022-11-09
+357,Customer_357,c357@mail.com,DE,Corporate,2020-11-12
+358,Customer_358,c358@mail.com,FR,Corporate,2022-09-30
+359,Customer_359,c359@mail.com,US,Consumer,2020-02-20
+360,Customer_360,c360@mail.com,US,Home Office,2022-12-08
+361,Customer_361,c361@mail.com,DE,Consumer,2021-09-02
+362,Customer_362,c362@mail.com,CA,Corporate,2021-04-25
+363,Customer_363,c363@mail.com,FR,Consumer,2022-04-05
+364,Customer_364,c364@mail.com,US,Consumer,2020-08-12
+365,Customer_365,c365@mail.com,UK,Corporate,2021-05-08
+366,Customer_366,c366@mail.com,US,Consumer,2020-04-09
+367,Customer_367,c367@mail.com,FR,Consumer,2021-08-14
+368,Customer_368,c368@mail.com,US,Consumer,2021-01-24
+369,Customer_369,c369@mail.com,CA,Corporate,2022-11-06
+370,Customer_370,c370@mail.com,US,Consumer,2020-05-16
+371,Customer_371,c371@mail.com,UK,Consumer,2022-11-23
+372,Customer_372,c372@mail.com,UK,Home Office,2021-03-02
+373,Customer_373,c373@mail.com,US,Consumer,2020-02-17
+374,Customer_374,c374@mail.com,US,Home Office,2022-08-10
+375,Customer_375,c375@mail.com,DE,Consumer,2020-02-27
+376,Customer_376,c376@mail.com,DE,Consumer,2020-06-01
+377,Customer_377,c377@mail.com,US,Corporate,2021-09-24
+378,Customer_378,c378@mail.com,UK,Consumer,2022-09-23
+379,Customer_379,c379@mail.com,DE,Consumer,2020-11-22
+380,Customer_380,c380@mail.com,UK,Corporate,2022-05-09
+381,Customer_381,c381@mail.com,US,Corporate,2020-01-28
+382,Customer_382,c382@mail.com,DE,Home Office,2020-03-22
+383,Customer_383,c383@mail.com,US,Consumer,2020-08-02
+384,Customer_384,c384@mail.com,UK,Consumer,2022-03-05
+385,Customer_385,c385@mail.com,DE,Corporate,2022-08-19
+386,Customer_386,c386@mail.com,UK,Corporate,2020-05-22
+387,Customer_387,c387@mail.com,DE,Consumer,2020-10-18
+388,Customer_388,c388@mail.com,CA,Consumer,2020-08-12
+389,Customer_389,c389@mail.com,US,Home Office,2022-12-05
+390,Customer_390,c390@mail.com,US,Consumer,2020-10-19
+391,Customer_391,c391@mail.com,US,Corporate,2020-09-08
+392,Customer_392,c392@mail.com,UK,Consumer,2020-03-08
+393,Customer_393,c393@mail.com,UK,Corporate,2020-05-19
+394,Customer_394,c394@mail.com,CA,Home Office,2020-03-25
+395,Customer_395,c395@mail.com,UK,Consumer,2020-02-02
+396,Customer_396,c396@mail.com,US,Corporate,2022-07-11
+397,Customer_397,c397@mail.com,US,Consumer,2020-09-11
+398,Customer_398,c398@mail.com,CA,Home Office,2022-11-10
+399,Customer_399,c399@mail.com,UK,Consumer,2022-10-06
+400,Customer_400,c400@mail.com,DE,Consumer,2021-02-12
+401,Customer_401,c401@mail.com,DE,Corporate,2020-06-16
+402,Customer_402,c402@mail.com,US,Home Office,2021-08-20
+403,Customer_403,c403@mail.com,DE,Corporate,2020-09-12
+404,Customer_404,c404@mail.com,US,Corporate,2022-10-10
+405,Customer_405,c405@mail.com,FR,Consumer,2020-06-28
+406,Customer_406,c406@mail.com,UK,Consumer,2020-02-22
+407,Customer_407,c407@mail.com,US,Consumer,2022-05-07
+408,Customer_408,c408@mail.com,UK,Consumer,2020-12-03
+409,Customer_409,c409@mail.com,US,Corporate,2022-07-01
+410,Customer_410,c410@mail.com,FR,Corporate,2022-11-27
+411,Customer_411,c411@mail.com,UK,Home Office,2022-02-10
+412,Customer_412,c412@mail.com,US,Corporate,2022-11-20
+413,Customer_413,c413@mail.com,US,Home Office,2021-08-31
+414,Customer_414,c414@mail.com,,Corporate,2020-10-22
+415,Customer_415,c415@mail.com,DE,Corporate,2021-05-26
+416,Customer_416,c416@mail.com,CA,Home Office,2021-05-09
+417,Customer_417,c417@mail.com,US,Home Office,2020-11-13
+418,Customer_418,c418@mail.com,DE,Home Office,2021-08-05
+419,Customer_419,c419@mail.com,FR,Consumer,2022-06-25
+420,Customer_420,c420@mail.com,CA,Corporate,2021-07-16
+421,Customer_421,c421@mail.com,US,Consumer,2021-11-19
+422,Customer_422,c422@mail.com,,Home Office,2021-05-25
+423,Customer_423,c423@mail.com,US,Consumer,2020-11-11
+424,Customer_424,c424@mail.com,US,Consumer,2021-11-19
+425,Customer_425,c425@mail.com,DE,Consumer,2020-09-20
+426,Customer_426,c426@mail.com,FR,Consumer,2021-10-30
+427,Customer_427,c427@mail.com,DE,Home Office,2021-10-30
+428,Customer_428,c428@mail.com,UK,Consumer,2021-01-11
+429,Customer_429,c429@mail.com,CA,Corporate,2021-10-10
+430,Customer_430,c430@mail.com,US,Corporate,2022-06-13
+431,Customer_431,c431@mail.com,US,Home Office,2021-09-27
+432,Customer_432,c432@mail.com,FR,Consumer,2022-04-02
+433,Customer_433,c433@mail.com,US,Corporate,2022-09-15
+434,Customer_434,c434@mail.com,FR,Home Office,2022-08-03
+435,Customer_435,c435@mail.com,US,Corporate,2021-10-03
+436,Customer_436,c436@mail.com,UK,Home Office,2020-05-20
+437,Customer_437,c437@mail.com,DE,Corporate,2020-11-21
+438,Customer_438,c438@mail.com,UK,Consumer,2020-09-03
+439,Customer_439,c439@mail.com,US,Consumer,2021-06-29
+440,Customer_440,c440@mail.com,,Corporate,2020-06-15
+441,Customer_441,c441@mail.com,UK,Home Office,2021-11-26
+442,Customer_442,c442@mail.com,US,Consumer,2020-03-04
+443,Customer_443,c443@mail.com,US,Corporate,2021-07-31
+444,Customer_444,c444@mail.com,UK,Consumer,2020-05-13
+445,Customer_445,c445@mail.com,DE,Corporate,2021-06-28
+446,Customer_446,c446@mail.com,UK,Corporate,2020-04-22
+447,Customer_447,c447@mail.com,UK,Consumer,2022-09-28
+448,Customer_448,c448@mail.com,CA,Corporate,2020-11-26
+449,Customer_449,c449@mail.com,US,Corporate,2020-08-14
+450,Customer_450,c450@mail.com,UK,Consumer,2021-07-06
+451,Customer_451,c451@mail.com,UK,Consumer,2021-03-19
+452,Customer_452,c452@mail.com,DE,Corporate,2020-12-29
+453,Customer_453,c453@mail.com,DE,Consumer,2020-02-25
+454,Customer_454,c454@mail.com,UK,Consumer,2021-06-25
+455,Customer_455,c455@mail.com,DE,Consumer,2020-12-09
+456,Customer_456,c456@mail.com,FR,Corporate,2022-01-13
+457,Customer_457,c457@mail.com,UK,Corporate,2021-01-28
+458,Customer_458,c458@mail.com,US,Consumer,2021-12-23
+459,Customer_459,c459@mail.com,DE,Consumer,2020-01-15
+460,Customer_460,c460@mail.com,UK,Corporate,2020-09-20
+461,Customer_461,c461@mail.com,CA,Consumer,2020-08-31
+462,Customer_462,c462@mail.com,UK,Consumer,2022-10-01
+463,Customer_463,c463@mail.com,FR,Consumer,2021-09-20
+464,Customer_464,c464@mail.com,UK,Consumer,2021-06-28
+465,Customer_465,c465@mail.com,US,Consumer,2021-11-03
+466,Customer_466,c466@mail.com,UK,Consumer,2022-01-11
+467,Customer_467,c467@mail.com,UK,Corporate,2020-02-08
+468,Customer_468,c468@mail.com,US,Consumer,2022-07-10
+469,Customer_469,c469@mail.com,US,Corporate,2022-07-25
+470,Customer_470,c470@mail.com,DE,Corporate,2022-06-13
+471,Customer_471,c471@mail.com,CA,Consumer,2022-12-30
+472,Customer_472,c472@mail.com,FR,Home Office,2021-06-30
+473,Customer_473,c473@mail.com,DE,Consumer,2020-06-29
+474,Customer_474,c474@mail.com,UK,Corporate,2022-06-30
+475,Customer_475,c475@mail.com,UK,Corporate,2021-10-27
+476,Customer_476,c476@mail.com,FR,Corporate,2021-05-12
+477,Customer_477,c477@mail.com,US,Consumer,2020-08-06
+478,Customer_478,c478@mail.com,FR,Corporate,2020-09-09
+479,Customer_479,c479@mail.com,UK,Corporate,2021-06-08
+480,Customer_480,c480@mail.com,UK,Home Office,2022-03-16
+481,Customer_481,c481@mail.com,US,Home Office,2021-03-07
+482,Customer_482,c482@mail.com,UK,Consumer,2021-08-16
+483,Customer_483,c483@mail.com,CA,Consumer,2022-08-31
+484,Customer_484,c484@mail.com,UK,Home Office,2020-04-24
+485,Customer_485,c485@mail.com,US,Consumer,2021-05-20
+486,Customer_486,c486@mail.com,US,Consumer,2021-03-13
+487,Customer_487,c487@mail.com,UK,Home Office,2021-09-07
+488,Customer_488,c488@mail.com,US,Consumer,2021-03-01
+489,Customer_489,c489@mail.com,US,Consumer,2022-11-05
+490,Customer_490,c490@mail.com,CA,Consumer,2020-09-15
+491,Customer_491,c491@mail.com,UK,Corporate,2020-09-14
+492,Customer_492,c492@mail.com,DE,Consumer,2021-02-22
+493,Customer_493,c493@mail.com,US,Corporate,2021-06-23
+494,Customer_494,c494@mail.com,,Corporate,2021-05-24
+495,Customer_495,c495@mail.com,US,Consumer,2022-05-03
+496,Customer_496,c496@mail.com,CA,Home Office,2022-03-17
+497,Customer_497,c497@mail.com,US,Corporate,2020-10-10
+498,Customer_498,c498@mail.com,FR,Consumer,2022-08-08
+499,Customer_499,c499@mail.com,DE,Corporate,2022-08-30
+500,Customer_500,c500@mail.com,FR,Consumer,2022-03-19
