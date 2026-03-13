@@ -1,0 +1,5 @@
+{"id":1,"name":"Person_1","age":25,"salary":50000.0,"dept":"Eng","join_date":"2020-01-01","active":true}
+{"id":2,"name":"Person_2","age":32,"salary":75000.0,"dept":"HR","join_date":"2020-01-02","active":true}
+{"id":3,"name":"Person_3","age":41,"salary":120000.0,"dept":"Sales","join_date":"2020-01-03","active":false}
+{"id":4,"name":"Person_4","age":28,"salary":45000.0,"dept":"Finance","join_date":"2020-01-04","active":true}
+{"id":5,"name":"Person_5","age":55,"salary":95000.0,"dept":"Legal","join_date":"2020-01-05","active":false}
