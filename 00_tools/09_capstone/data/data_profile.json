@@ -1,0 +1,31 @@
+{
+  "raw_rows": 6000,
+  "processed_rows": 6000,
+  "target_rate": 0.22233333333333333,
+  "null_counts": {
+    "age": 0,
+    "income": 0,
+    "loan_amount": 0,
+    "credit_utilization": 0,
+    "late_payments_12m": 0,
+    "region": 0,
+    "channel": 0,
+    "default": 0,
+    "debt_to_income": 0,
+    "payment_stress": 0,
+    "is_online": 0
+  },
+  "columns": [
+    "age",
+    "income",
+    "loan_amount",
+    "credit_utilization",
+    "late_payments_12m",
+    "region",
+    "channel",
+    "default",
+    "debt_to_income",
+    "payment_stress",
+    "is_online"
+  ]
+}
