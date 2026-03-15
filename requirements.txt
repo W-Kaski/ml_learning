@@ -1,19 +1,32 @@
-# 机器学习环境依赖（GPU版本）
-# 硬件：NVIDIA GeForce RTX 4080 + CUDA 12.2/12.8
-# Python版本：3.10.12
-# 最后更新：2026-03-06
+# 机器学习项目依赖（按当前环境锁定）
+# Python: 3.10.x
+# Last update: 2026-03-15
 
-# PyTorch 核心（系统级安装，无需再装）
-# torch==2.8.0+cu128  (已安装在 /usr/local/lib/python3.10/dist-packages)
-# 用户级安装
-torchvision==0.23.0+cu128  # 用户目录，与系统torch版本匹配
+# Deep Learning
+torch==2.8.0
+torchvision==0.23.0+cu128
 
-# 系统级可用（无需安装）
-matplotlib>=3.10.5
-numpy>=2.2.6
+# Data Processing
+numpy==1.26.4
+pandas==2.3.3
+polars==1.39.0
 
-# 注意事项：
-# 1. PyTorch 2.8.0+cu128 已在系统全局安装，支持GPU
-# 2. torchvision 安装在用户目录 (~/.local/lib/python3.10/site-packages)
-# 3. 若要隔离环境，建议联系管理员申请更大磁盘配额后使用 venv/conda
-# 4. 当前配置足以运行 MNIST/CIFAR 等标准深度学习任务
+# ML / Boosting
+scikit-learn==1.7.2
+xgboost==3.2.0
+joblib==1.5.3
+
+# Visualization
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# API Serving
+fastapi==0.135.1
+uvicorn==0.41.0
+pydantic==2.12.5
+
+# Experiment Tracking
+mlflow==3.10.1
+
+# Optional but recommended for parquet/arrow workflows
+pyarrow==23.0.1
